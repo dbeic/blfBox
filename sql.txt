@@ -1,0 +1,11 @@
+CREATE DATABASE phone_numbers_db;
+
+\c phone_numbers_db;
+
+CREATE TABLE phone_numbers (
+    id SERIAL PRIMARY KEY,
+    number VARCHAR(20) NOT NULL,
+    name VARCHAR(50) NOT NULL,
+    latitude FLOAT NOT NULL,
+    longitude FLOAT NOT NULL
+);

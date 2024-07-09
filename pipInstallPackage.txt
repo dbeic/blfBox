@@ -1,0 +1,1 @@
+pip install Flask geopy psycopg2 Kivy plyer requests
